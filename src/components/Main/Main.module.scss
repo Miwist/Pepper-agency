@@ -1,0 +1,21 @@
+.Main {
+  i {
+    font-size: 44px;
+    position: fixed;
+    bottom: 60px;
+    right: 60px;
+    z-index: 3;
+    box-shadow: none;
+    background-image: none;
+  }
+  i:hover {
+    font-size: 40px;
+    color: rgba(158, 28, 203, 1);
+  }
+  i:active {
+    border: none;
+    box-shadow: none;
+    color: #fff;
+    background-image: none;
+  }
+}

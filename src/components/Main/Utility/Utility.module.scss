@@ -1,0 +1,126 @@
+.Utility {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+  width: 100%;
+  background: url("../../../assets/img/smoke.jpg") no-repeat;
+  background-size: cover;
+  padding: 20px;
+  background-attachment: fixed;
+  background-position: center;
+
+  .title {
+    h2 {
+      color: #0c0c0c;
+      opacity: 0.625;
+      margin-bottom: 10px;
+    }
+    h3 {
+      margin-bottom: 20px;
+    }
+  }
+
+  .items {
+    h4 {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+    width: 100%;
+    max-width: 1000px;
+    .item {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      width: 100%;
+      height: 100%;
+      backdrop-filter: blur(20px);
+      padding: 30px;
+      margin-bottom: 60px;
+
+      .service {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        min-width: 400px;
+        min-height: 300px;
+        padding-left: 10px;
+
+        button {
+          width: 200px;
+          height: 50px;
+          cursor: pointer;
+          background-color: transparent;
+          color: #ffffff;
+
+          border: solid 3px transparent;
+          background-image: linear-gradient(
+              rgba(255, 255, 255, 0),
+              rgba(255, 255, 255, 0)
+            ),
+            linear-gradient(101deg, #78e4ff, #ff48fa);
+          background-origin: border-box;
+          background-clip: content-box, border-box;
+          box-shadow: 2px 1000px 1px #0c0c0c inset;
+        }
+
+        button:hover {
+          box-shadow: none;
+          background-image: linear-gradient(
+              rgba(255, 255, 255, 0),
+              rgba(255, 255, 255, 0)
+            ),
+            linear-gradient(45deg, #ff48fa, #78e4ff);
+        }
+        button:active {
+          border: 1px solid black;
+          background-image: linear-gradient(
+              rgba(255, 255, 255, 0),
+              rgba(255, 255, 255, 0)
+            ),
+            linear-gradient(45deg, #78e4ff, #ff48fa);
+        }
+      }
+
+      .description {
+        padding: 20px;
+        max-width: 400px;
+        li {
+          color: #fff;
+          margin-bottom: 15px;
+        }
+      }
+    }
+    .line {
+      width: 100%;
+
+      background: linear-gradient(
+        45deg,
+        rgba(238, 116, 28, 1) 0%,
+        rgba(158, 28, 203, 1) 25%,
+        rgba(1, 183, 255, 1) 99%
+      );
+      height: 2px;
+    }
+  }
+}
+@media screen and (max-width: "480px") {
+  .Utility {
+    .items {
+      .item {
+        flex-direction: column;
+        justify-content: center;
+        .service {
+          h2 {
+            font-size: 24px;
+          }
+          justify-content: space-evenly;
+          align-items: center;
+        }
+      }
+    }
+  }
+}

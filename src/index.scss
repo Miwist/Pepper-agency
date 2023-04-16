@@ -1,0 +1,120 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("./fonts/Montserrat.eot"), format("eot");
+  src: url("./fonts/Montserrat.ttf"), format("ttf");
+  font-family: "NeueMachina";
+  src: url("./fonts/NeueMachina.woff"), format("woff");
+  src: url("./fonts/NeueMachina.ttf"), format("ttf");
+}
+html {
+  scroll-behavior: smooth;
+  h1,
+h2,
+h3,
+h4,
+h5,
+span {
+  color: #ffffff;
+  font-family: "NeueMachina";
+}
+
+h1 {
+  font-size: 56px;
+}
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 36px;
+}
+
+h4 {
+  font-size: 32px;
+}
+h5 {
+  font-size: 28px;
+}
+
+p {
+  font-family: "Montserrat";
+  font-size: 20px;
+  color: #ffffff;
+}
+
+i {
+  color: #ffffff;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  box-shadow: 2px 100px 1px #0c0c0c inset;
+  border: solid 3px transparent;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0)
+    ),
+    linear-gradient(101deg, #78e4ff, #ff48fa);
+  background-origin: border-box;
+  cursor: pointer;
+}
+
+i:hover {
+  box-shadow: none;
+}
+i:active {
+  border: 1px solid black;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0)
+    ),
+    linear-gradient(45deg, #78e4ff, #ff48fa);
+}
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", "NeueMachina";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #0c0c0c;
+}
+
+
+
+.wrapper {
+  position: relative;
+  min-height: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
+@media screen and (max-width: 480px) {
+    html {
+      h1 {
+        font-size: 30px;
+      }
+      h2 {
+        font-size: 28px;
+      }
+      
+      h3 {
+        font-size: 26px;
+      }
+      
+      h4 {
+        font-size: 22px;
+      }
+      h5 {
+        font-size: 20px;
+      }
+    }
+}

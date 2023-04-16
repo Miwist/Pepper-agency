@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Pepper-agency/static/css/main.af82763e.css",
+    "main.js": "/Pepper-agency/static/js/main.31aa88b3.js",
+    "static/media/smoke2.jpg": "/Pepper-agency/static/media/smoke2.040f9386e496690fd85d.jpg",
+    "static/media/smoke.jpg": "/Pepper-agency/static/media/smoke.2aeaf9ceebbb1a0bb1f2.jpg",
+    "static/media/site1.jpg": "/Pepper-agency/static/media/site1.34f02ce7a0b007d5c04e.jpg",
+    "static/media/site2.jpg": "/Pepper-agency/static/media/site2.98f2a81150ca64515556.jpg",
+    "static/media/Montserrat.eot": "/Pepper-agency/static/media/Montserrat.4b33f3d37c06db49a761.eot",
+    "static/media/Montserrat.ttf": "/Pepper-agency/static/media/Montserrat.5885feb264991825e67f.ttf",
+    "static/media/site3.jpg": "/Pepper-agency/static/media/site3.d59b6bab6d7fb595cc1b.jpg",
+    "static/media/waves.jpg": "/Pepper-agency/static/media/waves.b59edb8de0437c5aaa96.jpg",
+    "static/media/NeueMachina.ttf": "/Pepper-agency/static/media/NeueMachina.e3f0d560c71e5363d34c.ttf",
+    "static/media/NeueMachina.woff": "/Pepper-agency/static/media/NeueMachina.b45c4f42f6534208c825.woff",
+    "index.html": "/Pepper-agency/index.html",
+    "main.af82763e.css.map": "/Pepper-agency/static/css/main.af82763e.css.map",
+    "main.31aa88b3.js.map": "/Pepper-agency/static/js/main.31aa88b3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af82763e.css",
+    "static/js/main.31aa88b3.js"
+  ]
+}
